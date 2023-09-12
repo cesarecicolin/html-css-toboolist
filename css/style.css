@@ -1,5 +1,31 @@
 /* reset */
-*{
+* {
     margin: 0;
     padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.title {
+    vertical-align: middle;
+    display: inline;
+    font-size: 40px;
+}
+.logo {
+    vertical-align:middle;
+    width: 60px;
 }
